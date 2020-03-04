@@ -32,13 +32,16 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Artificial Intelligence
         link:
 
-      - item: Snowboarding
+      - item: Quantum Computing
         link:
 
-      - item: Cooking
+      - item: Sci-Fi Movies
+        link:
+
+      - item: Video Games
         link:
 
 education:
