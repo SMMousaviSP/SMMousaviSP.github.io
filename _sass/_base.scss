@@ -165,6 +165,10 @@ p {
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
+        transition: 0.2s;
+    }
+    .section-title:hover {
+        color: darken($theme-color, 5%);
     }
     .section {
         margin-bottom: 60px;
