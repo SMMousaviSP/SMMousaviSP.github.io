@@ -253,6 +253,10 @@ p {
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+        transition: 0.2s;
+    }
+    .level-bar-inner:hover {
+        background: lighten($theme-color, 5%);
     }
 }
 
