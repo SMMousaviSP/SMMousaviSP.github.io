@@ -63,14 +63,14 @@ career-profile:
       in teaching programming languages (Python and Java), Data Structures and
       Theory of Languages and Automata.
 experiences:
-    - role: Computer Architecture Teacher Assistant
-      time: Sep 2019 - Jan 2020
+    - role: Computer Architecture T.A
+      time: 2019 - 2020
       company: University of Sistan and Baluchestan
-    - role: Theory of Languages and Automata Teacher Assistant
-      time: Sep 2019 - Jan 2020
+    - role: Theory of Languages T.A
+      time: 2019 - 2020
       company: University of Sistan and Baluchestan
-    - role: Data Structures Teacher Assistant
-      time: Jan 2019 - Jun 2019
+    - role: Data Structures T.A
+      time: 2019 - 2019
       company: University of Sistan and Baluchestan
 projects:
     title: Projects
