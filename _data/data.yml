@@ -52,14 +52,16 @@ education:
       university: National Organization for Development of Exceptional Talents School
       time: 2013 - 2017
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm interested in artificial intelligence and specifically deep
+      learning. I'm working with python and TensorFlow for deep learning and
+      I'm a full-stack web developer, for backend I use Django and Flask and
+      for Frontend I use React js and Bootstrap. I like the idea of functional
+      programming and in my spare time, I want to learn Clojure programming
+      language and fundamentals of functional programming. I have experience
+      in teaching programming languages (Python and Java), Data Structures and
+      Theory of Languages and Automata.
 experiences:
     - role: Lead Developer
       time: 2015 - Present
