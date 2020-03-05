@@ -74,30 +74,22 @@ experiences:
       company: University of Sistan and Baluchestan
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Mission Management Web Application
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: |
+          A single-page web application for managing employees missions with
+          three different accessibility levels for users (Employee, Admin,
+          System Admin). Backend developed using Django and Django REST API
+          and frontend developed using React js and Bootstrap 4.
 
-      - title: DevStudio
+      - title: Reversi
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Reversi game developed in Java with Android Studio."
 
 publications:
     title: Publications
