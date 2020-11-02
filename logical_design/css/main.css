@@ -1,0 +1,25 @@
+.my-container {
+    padding: 40px;
+}
+.bs {
+    border-bottom: 2px solid black;
+}
+
+.bd {
+    border-bottom: 2px dashed black;
+}
+
+span {
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    
+}

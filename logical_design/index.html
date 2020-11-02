@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Database Logical Design</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Database Logical Design</span>
+    </nav>
+
+    <div class="container-fluid my-container">
+      <label for="main-textarea">Enter your text here:</label>
+      <div class="row">
+        <div class="col-lg-6">
+          <textarea class="form-control" id="main-textarea" rows="18">
+Place your primary keys inside brackets, for example:
+Student([SID], name, last_name, gpa)
+And place your foreign keys inside curly brackets, for example:
+Parent({SID}, name, last_name, phone_number)</textarea>
+        </div>
+        <div class="col-lg-6" id="rendered-text"></div>
+      </div>
+    </div>
+    <footer class="footer bg-light">
+      Copyright <strong>©</strong> smmousavisp.ir
+    </footer>
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      var live_edit = function() {
+        var raw_text = this["value"];
+        raw_text = raw_text.replace(/ /g, '&nbsp;');
+        raw_text = raw_text.replace(/\n/g, '<br>');
+        raw_text = raw_text.replace(/%/g, '<hr>');
+        raw_text = raw_text.replace(/\[/g, '<span class="bs">');
+        raw_text = raw_text.replace(/\]/g, '</span>&nbsp;');
+        raw_text = raw_text.replace(/\{/g, '<span class="bd">');
+        raw_text = raw_text.replace(/\}/g, '</span>&nbsp;');
+        $("#rendered-text").html(raw_text);
+      };
+      $("#main-textarea").on('input', live_edit)
+      this["value"] = $("#main-textarea").text();
+      live_edit();
+    </script>
+  </body>
+</html>
