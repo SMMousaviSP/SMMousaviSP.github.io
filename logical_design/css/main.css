@@ -1,5 +1,10 @@
+#rendered-text {
+    white-space: nowrap;
+}
+
 .my-container {
     padding: 40px;
+    margin-bottom: 60px;
 }
 .bs {
     border-bottom: 2px solid black;
