@@ -19,6 +19,19 @@ span {
     padding-bottom: 3px;
 }
 
+.fa {
+    direction: rtl;
+    text-align: right;
+}
+
+.fa-rendered-text {
+    overflow-x: scroll;
+}
+
+.btn-language {
+    margin-top: 20px;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -27,5 +40,5 @@ span {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    
+    z-index: 100;
 }
