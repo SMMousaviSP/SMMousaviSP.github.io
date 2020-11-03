@@ -19,7 +19,11 @@
         <div class="col-lg-6">
           <textarea class="form-control" id="main-textarea" rows="18">
 Place your primary keys inside brackets, for example:
-Student([SID], name, last_name, gpa)
+Student([SID], name, gpa)
+
+Place your candidate keys inside two brackets, for example:
+Student([SID], [[national_number]], name, gpa)
+
 And place your foreign keys inside curly brackets, for example:
 Parent({SID}, name, last_name, phone_number)</textarea>
         </div>

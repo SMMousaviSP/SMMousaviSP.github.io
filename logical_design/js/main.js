@@ -4,6 +4,7 @@ var live_edit = function() {
     raw_text = raw_text.replace(/\n/g, '<br>');
     raw_text = raw_text.replace(/%/g, '<hr>');
     raw_text = raw_text.replace(/\[/g, '<span class="bs">');
+    raw_text = raw_text.replace(/\]\]/g, '</span></span>&nbsp;');
     raw_text = raw_text.replace(/\]/g, '</span>&nbsp;');
     raw_text = raw_text.replace(/\{/g, '<span class="bd">');
     raw_text = raw_text.replace(/\}/g, '</span>&nbsp;');
