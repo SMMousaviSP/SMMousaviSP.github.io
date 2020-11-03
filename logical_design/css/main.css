@@ -30,6 +30,7 @@ span {
 
 .btn-language {
     margin-top: 20px;
+    direction: ltr !important;
 }
 
 .footer {
