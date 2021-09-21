@@ -1,6 +1,8 @@
 
-# Created by https://www.gitignore.io/api/jekyll,vim,emacs,visualstudiocode,linux,macos,windows
-# Edit at https://www.gitignore.io/?templates=jekyll,vim,emacs,visualstudiocode,linux,macos,windows
+# Created by https://www.toptal.com/developers/gitignore/api/vim,linux,macos,emacs,windows,visualstudiocode,
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,linux,macos,emacs,windows,visualstudiocode,
+
+#!! ERROR:  is undefined. Use list command to see defined gitignore types !!#
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -53,12 +55,6 @@ flycheck_*.el
 /network-security.data
 
 
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
 ### Linux ###
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -80,7 +76,7 @@ _site/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
@@ -104,6 +100,7 @@ Temporary Items
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
@@ -115,15 +112,10 @@ Sessionx.vim
 
 # Temporary
 .netrwhist
-
 # Auto-generated tag files
 tags
-
 # Persistent undo
 [._]*.un~
-
-# Coc configuration directory
-.vim
 
 ### VisualStudioCode ###
 .vscode/*
@@ -131,10 +123,15 @@ tags
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -162,5 +159,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/jekyll,vim,emacs,visualstudiocode,linux,macos,windows
-n
+# End of https://www.toptal.com/developers/gitignore/api/vim,linux,macos,emacs,windows,visualstudiocode,
