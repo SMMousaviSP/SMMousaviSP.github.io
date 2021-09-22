@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seyed Mohammad Mousavi</title>
-    <link>https://smmousavisp.ir/</link>
+    <link>https://smmousavisp.com/</link>
     <description>Recent content on Seyed Mohammad Mousavi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://smmousavisp.ir/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://smmousavisp.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://smmousavisp.ir/about/</link>
+      <link>https://smmousavisp.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://smmousavisp.ir/about/</guid>
+      <guid>https://smmousavisp.com/about/</guid>
       <description>Hi, I&amp;rsquo;m a software engineer working and studying AI and machine learning. I&amp;rsquo;m fluent in Python, and I have experience working with PyTorch, OpenCV, and Hugging Face Transformers. I also have experience in teaching programming languages (Python and Java), artificial intelligence, data structures, theory of languages and automata, and computer architecture. In the past, I was a full-stack web developer, working with Django or Flask as the backend framework and React as the frontend framework.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://smmousavisp.ir/contact/</link>
+      <link>https://smmousavisp.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://smmousavisp.ir/contact/</guid>
+      <guid>https://smmousavisp.com/contact/</guid>
       <description>If you have a question or suggestions about one of my projects, feel free to send an email, you can also create an issue for the projects available on my GitHub.
 Email: smmousavisp@gmail.com</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://smmousavisp.ir/projects/</link>
+      <link>https://smmousavisp.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://smmousavisp.ir/projects/</guid>
+      <guid>https://smmousavisp.com/projects/</guid>
       <description>Stereotactic Robot Interface    November 2020 - August 2021
 In this project, I developed a GUI to work with a stereotactic robot. This interface was aimed to be used by physicians to find the stereotactic coordinates for surgeries from more than 200 brain atlases. Since there were so many brain atlases and so many brain parts in each one of them, they needed the ability to search a brain part and see only the atlases that contained that brain part.</description>
     </item>
