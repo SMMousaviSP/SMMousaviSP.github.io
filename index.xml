@@ -43,8 +43,8 @@ In this project, I developed a GUI to work with a stereotactic robot. This inter
       <guid>https://smmousavisp.com/tutorials/</guid>
       <description>Python Tutorial for Programmers + Machine Learning Project    Available on YouTube: https://youtube.com/playlist?list=PL28YTeOOreBRMmLWldygqyBL1KEXXkKeb
 I recorded this series for an optional project in the AI course while I was the teaching assistant of this course.
-This series is not for those who are not familiar with programming at all. I recorded this series for computer engineering students familiar with C++ and Java and/or C#.
-  </description>
+Python, Jupyter Lab, Matplotlib, scikit-learn, pandas, and NumPy are covered in this series.
+This series is not for those who are not familiar with programming at all. I recorded this series for computer engineering students familiar with C++ and Java and/or C#.</description>
     </item>
     
   </channel>
