@@ -151,6 +151,58 @@ In this project, I developed a GUI to work with a stereotactic robot. This inter
 <p>I also created another version of SVG files containing only brain parts abbreviation. I used the coordinates of the brain part contours in these SVG files to find the name of each brain part. To increase accuracy, I matched the recognized brain part abbreviation to the text extracted from the PDF file. If there were no match, the algorithm would choose the closest brain part abbreviation available.</p>
 <p>Hough transform was used to find the frame of each brain atlas in order to calculate the stereotactic coordinates.</p>
 <hr>
+<h1 id="genetic-algorithm-for-ackley-function">
+  Genetic Algorithm for Ackley Function
+  <a class="heading-link" href="#genetic-algorithm-for-ackley-function">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><em>March 2020 - May 2020</em></p>
+<p>Available on GitHub: <a href="https://github.com/SMMousaviSP/genetic_ackley">https://github.com/SMMousaviSP/genetic_ackley</a></p>
+<p>In this program, you can test the efficiency of the genetic algorithm on Ackley function.</p>
+<p>You can choose the binary chromosome size, the population in each generation, crossover method, parent selection method, survival selection method, probability of selecting a chromosome for mutation, and probability of changing a gene for mutation.</p>
+<h3 id="supported-crossover-methods">
+  Supported Crossover Methods:
+  <a class="heading-link" href="#supported-crossover-methods">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>n point</li>
+<li>single point</li>
+<li>uniform</li>
+</ul>
+<h3 id="supported-parent-selection-methods">
+  Supported Parent Selection Methods:
+  <a class="heading-link" href="#supported-parent-selection-methods">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Roulette Wheel Selection (RWS)</li>
+<li>Stochastic Universal Sampling (SUS)</li>
+<li>Tournament Selection (TS)</li>
+</ul>
+<h3 id="supported-survival-selection-methods">
+  Supported Survival Selection Methods:
+  <a class="heading-link" href="#supported-survival-selection-methods">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>Roulette Wheel Selection (RWS)</li>
+<li>Stochastic Universal Sampling (SUS)</li>
+<li>Tournament Selection (TS)</li>
+<li>Elitism</li>
+</ul>
+<figure><img src="/images/projects/genetic_ackley_average_fitness.png"
+         alt="Figure 1 - Average fitness in each generation"/><figcaption>
+            <p>Figure 1 - Average fitness in each generation</p>
+        </figcaption>
+</figure>
+
+<p>After choosing all of the parameters, the program will show you the best-found answer (the binary chromosome, fitness, x, y, and the output of Ackley function), the best answer in the last iteration, maximum fitness in different iterations plot, and average fitness in different iterations plot.</p>
+<hr>
 <h1 id="reversi-game">
   Reversi Game
   <a class="heading-link" href="#reversi-game">
@@ -176,8 +228,8 @@ In this project, I developed a GUI to work with a stereotactic robot. This inter
 </h3>
 <p>If you don&rsquo;t know Persian, here is a quick guide for playing the game. But if you want to learn how to play Reversi or you want to know more about this game, you can read about it on <a href="https://en.wikipedia.org/wiki/Reversi">Wikipedia</a>.</p>
 <figure><img src="/images/projects/reversi_game_guide.jpg"
-         alt="Figure 1 - Reversi game screenshots"/><figcaption>
-            <p>Figure 1 - Reversi game screenshots</p>
+         alt="Figure 2 - Reversi game screenshots"/><figcaption>
+            <p>Figure 2 - Reversi game screenshots</p>
         </figcaption>
 </figure>
 
