@@ -35,5 +35,17 @@ Email: smmousavisp@gmail.com</description>
 In this project, I developed a GUI to work with a stereotactic robot. This interface was aimed to be used by physicians to find the stereotactic coordinates for surgeries from more than 200 brain atlases. Since there were so many brain atlases and so many brain parts in each one of them, they needed the ability to search a brain part and see only the atlases that contained that brain part.</description>
     </item>
     
+    <item>
+      <title>Tutorials &amp; Presentations</title>
+      <link>https://smmousavisp.com/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://smmousavisp.com/tutorials/</guid>
+      <description>Python Tutorial for Programmers + Machine Learning Project    Available on YouTube: https://youtube.com/playlist?list=PL28YTeOOreBRMmLWldygqyBL1KEXXkKeb
+I recorded this series for an optional project in the AI course while I was the teaching assistant of this course.
+This series is not for those who are not familiar with programming at all. I recorded this series for computer engineering students familiar with C++ and Java and/or C#.
+  </description>
+    </item>
+    
   </channel>
 </rss>
