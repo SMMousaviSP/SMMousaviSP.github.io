@@ -43,8 +43,8 @@ In this project, I developed a GUI to work with a stereotactic robot. This inter
       <guid>https://smmousavisp.com/tutorials/</guid>
       <description>Fine-Tuning Hugging Face Transformers for Text Classification    Available on YouTube
 In this video, I explain what Hugging Face Transformers and Datasets are and how you can load a model and fine-tune it for text classification. This tutorial is based on Hugging Face course.
-   Python Tutorial for Programmers + Machine Learning Project    Available on YouTube
-I recorded this series for an optional project in the AI course while I was the teaching assistant of this course.</description>
+The Jupyter Notebook of this tutorial is available on my GitHub
+   Python Tutorial for Programmers + Machine Learning Project    Available on YouTube</description>
     </item>
     
   </channel>
