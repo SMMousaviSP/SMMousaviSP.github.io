@@ -41,10 +41,10 @@ In this project, I developed a GUI to work with a stereotactic robot. This inter
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://smmousavisp.com/tutorials/</guid>
-      <description>Python Tutorial for Programmers + Machine Learning Project    Available on YouTube
-I recorded this series for an optional project in the AI course while I was the teaching assistant of this course.
-Python, Jupyter Lab, Matplotlib, scikit-learn, pandas, and NumPy are covered in this series.
-This series is not for those who are not familiar with programming at all. I recorded this series for computer engineering students familiar with C++ and Java and/or C#.</description>
+      <description>Fine-Tuning Hugging Face Transformers for Text Classification    Available on YouTube
+In this video, I explain what Hugging Face Transformers and Datasets are and how you can load a model and fine-tune it for text classification. This tutorial is based on Hugging Face course.
+   Python Tutorial for Programmers + Machine Learning Project    Available on YouTube
+I recorded this series for an optional project in the AI course while I was the teaching assistant of this course.</description>
     </item>
     
   </channel>
